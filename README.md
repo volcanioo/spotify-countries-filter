@@ -4,6 +4,8 @@ We have so many playlist in our spotify account. We are listening french, arabic
 
 We created a product for spotify filter feature. In this app you will see all tracks in your playlist and you will filtered each song by language.
 
+For now we are just listing your playlists and listing your tracks by playlist. If you want test follow this url. http://spotify.msdeveci.net 
+
 # Installing
 If you want working on your localhost you are need change api url.
 
