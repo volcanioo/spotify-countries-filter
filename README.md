@@ -1,16 +1,22 @@
 ###### We are still working on it. (%60)
-# Spotify Filtered Tracs by Language
-We have so many playlist in our spotify account. We are listening french, arabic, turkish musics. So we have playlists but we don't have any filter feature about countries or language.
+# Filter Tracks by Language on Spotify!
+Everybody has their own playlists on Spotify. We listen to the music in different languages like French, Arabic, Turkish, etc.
+We experience the lack of filtering the music based on a country or a language on Spotify, so we intended to develop a 3rd party application to serve a filtering feature.
 
-We created a product for spotify filter feature. In this app you will see all tracks in your playlist and you will filtered each song by language.
+With this web application, you may list all the tracks in a playlist and filter them by language.
 
-For now we are just listing your playlists and listing your tracks by playlist. If you want test follow this url. http://spotify.msdeveci.net 
+For now, we just list the playlist by default. To test our application you may visit our demo page http://spotify.msdeveci.net 
 
 # Installing
-If you want working on your localhost you are need change api url.
+If you want to work on your own machine you need to configure API URL based on your own web servers.
+
 
 ### Step 1
-Go Home.vue and find this row:
+
+You should create an app on Spotify Developers Platform to gain your own credentials. Find the documentation on https://developer.spotify.com/dashboard/applications.
+
+### Step 2
+On Home.vue file find this row anc change it with your own credentials
 ```html
 <a
     class="button"
@@ -23,10 +29,6 @@ Go Home.vue and find this row:
     LOGIN WITH SPOTIFY
 </a>
 ```
-### Step 2
-You should create an app in spotify developers platform and you need take client_id after that you need change login url in Home.vue file. 
-
-You can visit https://developer.spotify.com/dashboard/applications.
 
 
 ## Project setup
@@ -61,3 +63,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Volkan Deveci.](https://twitter.com/volcanioo) Frontend Issues - html, css, js
 - [Enes İnkaya.](https://www.linkedin.com/in/enes-inkaya-8811b4b5/) Back-end and Test Issues - php
 - [Bora Açıcı.](https://www.linkedin.com/in/boraacici/) Back-end Issues - c#
+
+
